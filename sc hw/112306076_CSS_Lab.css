@@ -1,0 +1,89 @@
+@media all {
+body {
+  color: white;
+  background-color: dodgerblue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  
+}
+ .navbar {
+  background-color:black;
+  position: "relative";
+  top: 20em;
+  left: 15em;
+  width: 20em;
+  
+}
+
+
+
+
+
+
+h1 {
+  font-family: Arial, sans-serif;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:pink;
+  min-width: 160px;
+  box-shadow:none;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown .dropbtn {
+  background-color: inherit;
+  color: white;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  text-decoration:"" ;
+}
+.dropbtn:hover {
+  color: plum;
+}
+
+table  {
+  background-color:blue
+}
+
+
+
+
+
+
+
+@media print {
+  body {
+    color:white;
+    background-color: black;
+    font-family: Times New Roman, serif;
+  }
+
+  h1 {
+    font-family: Times New Roman, serif;
+  }
+
+  .navbar {
+    background-color: darkblue;
+    position: relative;
+    top: 1em;
+    left: 1em;
+    width: 20em;
+    
+  }
+}
